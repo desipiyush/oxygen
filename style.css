@@ -1,0 +1,55 @@
+* {
+    margin     : 0;
+    padding    : 0;
+    box-sizing : border-box;
+    position   : relative;
+    font-family: sans-serif;
+}
+
+body {
+    height    : 100vh;
+    width     : 100vw;
+    background: #eee;
+    overflow  : hidden;
+}
+
+.flex {
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+}
+
+body>p {
+    font-size: 4em;
+    color    : #5c5c5c;
+    transform: scaleY(1.2);
+    top      : 200px;
+}
+
+.man {
+    width        : 200px;
+    height       : 200px;
+    border-radius: 50%;
+    border       : 1px solid #0099ff;
+    position     : absolute;
+    color        : #0099ff;
+}
+
+.man p {
+    font-size: .9em;
+}
+
+.man p span {
+    font-size: 2em;
+}
+
+.o2 {
+    color    : #0099ff;
+    font-size: 5em;
+    position : absolute;
+}
+
+.o2 sub {
+    font-size: .4em;
+    top      : -10px;
+}
